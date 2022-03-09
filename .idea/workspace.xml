@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="37996ef1-082c-413e-88f8-0e64028514b7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/connections/telegraf-connection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/connections/telegraf-connection.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,7 +79,7 @@
       <updated>1646042325841</updated>
       <workItem from="1646042326943" duration="20210000" />
       <workItem from="1646199333904" duration="62300000" />
-      <workItem from="1646643225686" duration="12335000" />
+      <workItem from="1646643225686" duration="13085000" />
     </task>
     <task id="LOCAL-00001" summary="micro_bot">
       <created>1646811314301</created>
@@ -86,7 +88,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646811314301</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="micro_bot1">
+      <created>1646811697269</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1646811697269</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -94,6 +103,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="micro_bot" />
-    <option name="LAST_COMMIT_MESSAGE" value="micro_bot" />
+    <MESSAGE value="micro_bot1" />
+    <option name="LAST_COMMIT_MESSAGE" value="micro_bot1" />
   </component>
 </project>
