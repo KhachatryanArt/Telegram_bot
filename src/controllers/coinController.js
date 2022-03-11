@@ -42,12 +42,18 @@ class CoinController {
     }
 
     static async getMinMaxPrice(ctx) {
+
         let query = ctx.message.text.trim()
         let coin = query.split(" ")[0];
         let maxPrice = query.split(" ")[1];
         let minPrice = query.split(" ")[2] || 0;
         let coinForUrl = coin.toLowerCase();
-        let price = await CoinService.getMinMaxPrice(ctx, query, coin, maxPrice, minPrice, coinForUrl)
+        await CoinService.getMinMaxPrice(ctx, query, coin, maxPrice, minPrice, coinForUrl);
+    }
+
+    static async getSentiment(ctx){
+        console.log(1111)
+        await CoinService.getSentiment(ctx);
     }
 }
 

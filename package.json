@@ -9,13 +9,17 @@
   "author": "Arthur",
   "license": "ISC",
   "dependencies": {
+    "apos-to-lex-form": "^1.0.5",
     "dotenv": "^16.0.0",
     "koa": "^2.13.4",
     "koa-body": "^4.2.0",
     "koa-router": "^10.1.1",
     "micro-bot": "^2.5.3",
+    "natural": "^5.1.13",
     "node-binance-api": "^0.13.1",
     "nodemon": "^2.0.15",
+    "spelling-corrector": "^3.0.0",
+    "stopword": "^2.0.1",
     "telegraf": "^4.7.0",
     "telegram-keyboard": "^2.3.0",
     "ws": "^8.5.0"

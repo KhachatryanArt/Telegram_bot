@@ -12,6 +12,7 @@ bot.on('sticker', (ctx) => ctx.reply('👍'))
 
 bot.hears(/Price (.*)/i, CoinController.getPrice)
 bot.hears(/(.*) (.+)/i, CoinController.getMinMaxPrice)
+bot.hears( /\w/ , CoinController.getSentiment)
 
 
 bot.launch()
