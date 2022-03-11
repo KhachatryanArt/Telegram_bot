@@ -52,7 +52,7 @@ class CoinController {
     }
 
     static async getSentiment(ctx){
-        console.log(1111)
+        
         await CoinService.getSentiment(ctx);
     }
 }
